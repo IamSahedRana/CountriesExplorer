@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f7f8f5;
+  color: #17221b;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+  background: #17221b;
+  color: white;
+  padding: 35px 50px 45px;
+  border-bottom: 4px solid #9cff2e;
+}
+
+.hero-content {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+/* Top row */
+
+.hero-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #465048;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.tracker-label {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #9cff2e;
+  font-weight: bold;
+}
+
+/* Main hero */
+
+.hero-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-top: 45px;
+  gap: 50px;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  color: #9cff2e;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 52px;
+  line-height: 1.05;
+  letter-spacing: -2px;
+}
+
+.hero-description {
+  max-width: 520px;
+  margin: 20px 0 0;
+  color: #b9c0bb;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* =========================
+   STATS
+========================= */
+
+.stats {
+  display: flex;
+  gap: 15px;
+}
+
+.stat-box {
+  min-width: 145px;
+  padding: 20px;
+  border: 1px solid #4d584f;
+  border-radius: 10px;
+  background: #202b23;
+}
+
+.stat-box strong {
+  display: block;
+  font-size: 35px;
+  color: #9cff2e;
+}
+
+.stat-box span {
+  display: block;
+  margin-top: 5px;
+  color: #c4cbc6;
+  font-size: 13px;
+}
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+.main-content {
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 35px 28px 60px;
+}
