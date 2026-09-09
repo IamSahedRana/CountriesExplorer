@@ -5,14 +5,16 @@ import { useState } from 'react';
 
 export interface CountryProps {
   country: CountryType;
+  handleVisitedCountry: (country: CountryType) => void
 }
 
-export default function Country({ country }: CountryProps) {
+export default function Country({ country, handleVisitedCountry }: CountryProps) {
 
      const [visited, setVisited] = useState<boolean>(false);
 
      const handleVisited = () => {
         setVisited(!visited)
+        handleVisitedCountry(country);
      }
 
   return (
